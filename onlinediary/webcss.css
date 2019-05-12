@@ -1,0 +1,95 @@
+body{
+/*  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+  font-family : "Times New Roman", Times, serif;
+}
+h2
+{
+  color: white;
+  font-size: 40px;
+  text-shadow:
+              0.07em 0 black,
+              0 0.07em black,
+              -0.07em 0 black,
+              0 -0.07em black;
+}
+
+h3
+{
+/*  margin-top: -25px;  */  
+  color: yellow;
+  font-size: 28px;
+  text-shadow:
+              0.04em 0 black,
+              0 0.04em black,
+              -0.04em 0 black,
+              0 -0.04em black;
+}
+.inputarea{
+  background-color: rgba(191, 191, 191, .85);
+  position: absolute;
+  width: 250px;
+  height : 300px;
+  padding: 50px;
+  margin-left: 65%;
+  
+}
+.contents{
+  margin-left : 30px;
+  margin-top : 30px;
+}
+.submit{
+  margin-left : 60px;
+  margin-top : 10px;
+}
+.register{
+  position : absolute;
+  margin-top : 20px;
+  margin-left : -15px; 
+  font-size : 16px;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    
+}
+a:visited {
+  color: black;
+}
+a:hover
+{
+    color: yellow;
+    background-color: black;
+}
+
+#buttong, #buttonb, #buttonr
+{
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+#buttonb
+{
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+#buttonb{  background-color: black; }
+#buttong{  background-color: green; }
+#buttonr{  background-color: red; }
+
+
+#lb
+{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+#rb
+{
+  margin-left: 950px;
+  margin-top: 20px;
+}
