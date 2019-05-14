@@ -95,9 +95,9 @@ class AddressBook(QtGui.QWidget):
 
         buttonLayout1 = QtGui.QVBoxLayout()
         buttonLayout1.addWidget(self.addButton)
-        #buttonLayout1.addWidget(self.editButton)
-        #buttonLayout1.addWidget(self.removeButton)
-        #buttonLayout1.addWidget(self.findButton)
+        buttonLayout1.addWidget(self.editButton)
+        buttonLayout1.addWidget(self.removeButton)
+        buttonLayout1.addWidget(self.findButton)
         buttonLayout1.addWidget(self.submitButton)
         ##################################################
         buttonLayout1.addWidget(self.cancelButton)
