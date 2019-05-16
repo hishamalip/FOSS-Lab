@@ -5,5 +5,5 @@
  awk '{ if ( $2>=50 && $3>=50 && $4>=50 )
 		score="pass";
 	else score="fail"; }
-      { print $1,score }' testcase.txt
+      { print $1,score }' testcase3.txt
 
